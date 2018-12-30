@@ -1,0 +1,52 @@
+lm <- train(SalePrice~.*(GrLivArea + OverallQual + TotalBsmtSF
+                         + X1stFlrSF
+                         + YearBuilt )
+
+
+            train <- train[-c(186,250,305,314,336,524,636,692,707
+                              ,333 #keep
+                              #,385
+                              #,598,1374,198
+                              ,689,899
+                              ,1025,1170
+                              ,1174,1183,1299),]
+
+LotArea
++BldgType
++OverallQual
++OverallCond
++YearBuilt
++YearRemodAdd
++BsmtExposure
++BsmtFinSF1
++TotalBsmtSF
++X1stFlrSF
++X2ndFlrSF
+#+GrLivArea
++BedroomAbvGr
++TotRmsAbvGrd
++GarageCars
+
+
+(OverallQual
+  #+GrLivArea
+)*(
+  BedroomAbvGr
+  +X1stFlrSF
+  +X2ndFlrSF
+)
++(LotArea
+  +BldgType
+  +OverallQual
+  +OverallCond
+  +YearBuilt
+  +YearRemodAdd
+  +BsmtExposure
+  +BsmtFinSF1
+  +TotalBsmtSF
+  +X1stFlrSF
+  +X2ndFlrSF
+  #+GrLivArea
+  +BedroomAbvGr
+  #+TotRmsAbvGrd
+  +GarageCars)

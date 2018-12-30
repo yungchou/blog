@@ -1,0 +1,46 @@
+Boruta performed 499 iterations in 22.38802 mins.
+ 43 attributes confirmed important: BedroomAbvGr, BldgType, BsmtCond,
+BsmtExposure, BsmtFinSF1 and 38 more;
+ 18 attributes confirmed unimportant: BsmtFinSF2, BsmtFinType2,
+BsmtHalfBath, Condition1, Condition2 and 13 more;
+ 2 tentative attributes left: LandContour, ScreenPorch;
+
+MSSubClass
+MSZoning
+LandContour
+BldgType
+HouseStyle
+OverallQual
+OverallCond
+YearBuilt
+YearRemodAdd
+Exterior1st
+Exterior2nd
+MasVnrType
+ExterQual
+BsmtQual
+BsmtExposure
+BsmtFinType1
+BsmtFinSF1
+BsmtUnfSF
+TotalBsmtSF
+CentralAir
+X1stFlrSF
+X2ndFlrSF
+GrLivArea
+FullBath
+HalfBath
+BedroomAbvGr
+KitchenAbvGr
+TotRmsAbvGrd
+Fireplaces
+GarageType
+GarageYrBlt
+GarageFinish
+GarageCars
+GarageArea
+GarageQual
+GarageCond
+PavedDrive
+WoodDeckSF
+OpenPorchSF
